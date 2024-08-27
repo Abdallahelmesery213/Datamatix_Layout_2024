@@ -232,12 +232,13 @@ header .nav3 ul li:not(:last-child)::after {
     margin-bottom: 64px;
 }
 .datamatix-title h2{
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 35px;
+    font-family: setReta;
 }
 .datamatix-title p{
+    font-family: acuminFont;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 28px;
 }
 /* end datamatix-title */
 
@@ -248,7 +249,9 @@ header .nav3 ul li:not(:last-child)::after {
     padding: 64px 0;
 }
 .datamatix-video p{
-    font-size: 20px;
+    font-family: setReta;
+    font-size: 26px;
+    line-height: 35px;
     width: 80%;
     margin: auto;
     top: 50%;

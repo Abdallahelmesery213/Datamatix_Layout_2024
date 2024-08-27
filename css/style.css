@@ -7,6 +7,10 @@
     src: url(https://datamatixgroup.com/asset/fonts/Bruum\ FY\ Bold.otf);
 }
 @font-face{
+    font-family: setReta;
+    src: url(./../fonts/Seta\ Reta\ NF\ W01\ Regular.ttf);
+}
+@font-face{
     font-family: bruumFont;
     src: url(https://datamatixgroup.com/asset/fonts/Bruum\ FY\ Black.otf);
 }
@@ -457,9 +461,12 @@ header .nav3 ul li:not(:last-child)::after {
 .img-banr-text .text h4{
     color: #fff;
     font-size: 40px;
+    font-family: setReta;
 }
 .img-banr-text .text p{
     color: #6d6e70;
+    font-family: acuminFont;
+    font-size: 18px;
 }
 
 .main-text h2, .main-text h4{

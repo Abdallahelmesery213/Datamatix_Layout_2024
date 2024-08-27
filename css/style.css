@@ -432,6 +432,9 @@ header .nav3 ul li:not(:last-child)::after {
 .banr-txt-4{
     background-image: url(./../images/img_10-02.jpg);
 }
+.banr-txt-5{
+    background-image: url(./../images/img_22-02.jpg);
+}
 .banr-txt-6{
     background-image: url(./../images/img_11-02.jpg);
 }

@@ -1193,6 +1193,85 @@ footer form .btn{
 /* end photo-gallery screen */
 
 /* start media query */
+@media screen and (min-width: 1920px) {
+    header .right-part .nav2,
+    header .right-part .nav3{
+        min-height: 70px;
+    }
+    header .right-part .nav2 a,
+    header .right-part .nav3 a {
+        font-size: 24px;
+    }
+    .datamatix-title h2 {
+        font-size: 50px;
+    }
+    .datamatix-title p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .img-banr-text {
+        height: 1170px;
+    }
+    .img-banr-text .text h4 {
+        font-size: 50px;
+    }
+    .img-banr-text .text p {
+        font-size: 24px;
+    }
+    .counter-top p{
+        font-size: 24px;
+    }
+    .counter-top button.btn {
+        font-size: 24px;
+    }
+    .counter-top .btn {
+        min-height: 64px;
+    }
+    .datamatix-video p {
+        font-size: 30px;
+    }
+    .image-upper .section .text p {
+        font-size: 22px;
+    }
+    .middle-east-dark .header h3, .upcoming-events .header h3, .past-event-final .header h4 {
+        font-size: 40px;
+    }
+    .past-event-final h5 {
+        font-size: 30px;
+    }
+    .middle-east-dark .btn {
+        font-size: 22px;
+    }
+    .main-title h2, .main-title h3 {
+        font-size: 50px;
+    }
+    .upcoming-events .cards .text h4{
+        font-size: 35px;
+    }
+    .upcoming-events .cards .text h5,
+    .upcoming-events .cards .text h6,
+    .upcoming-events .cards .text p{
+        font-size: 22px;
+    }
+    .upcoming-events .cards .text .btn {
+        font-size: 22px;
+    }
+    footer h5 {
+        font-size: 24px;
+    }
+    footer .links span, footer .links a {
+        font-size: 20px;
+    }
+    .middle-east-dark .cards .text h5, .middle-east-dark .cards .text h6, .middle-east-dark .cards .text p{
+        font-size: 20px;
+    }
+    .counter h2 {
+        font-size: 40px;
+    }
+    .counter p{
+        font-size: 20px;
+    }
+}
 @media only screen and (min-width: 1400px) {
     .banner {
         height: 820px;

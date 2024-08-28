@@ -1193,6 +1193,9 @@ footer form .btn{
 
 /* start media query */
 @media screen and (min-width: 2115px) {
+    .left-part a{
+        display: contents;
+    }
     .img-banr-text {
         height: 1610px;
     }
@@ -1202,7 +1205,11 @@ footer form .btn{
     }
     header .right-part .nav2,
     header .right-part .nav3 {
-        min-height: 80px;
+        min-height: 100px;
+    }
+    header .right-part .nav3 a ,
+    header .right-part .nav2 a {
+        margin-right: 40px;
     }
     .img-banr-text .text h4 {
         font-size: 70px;
@@ -1217,21 +1224,30 @@ footer form .btn{
         font-size: 30px;
     }
     .counter h2 {
-        font-size: 35px;
+        font-size: 40px;
     }
     .counter p {
         font-size: 20px;
     }
     .datamatix-title h2 {
-        font-size: 40px;
+        font-size: 70px;
     }
-    .datamatix-title p {
-        font-size: 22px;
-        line-height: 35px;
+    .datamatix-title p, .datamatix-video p {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main-title h2, .main-title h3, .past-event-final .header h4 {
+        font-size: 70px;
+    }
+    .past-event-final h5 {
+        font-size: 40px;
     }
 }
 
 @media screen and (min-width: 1920px) and (max-width : 2110px) {
+    .left-part a{
+        display: contents;
+    }
     header .right-part .nav2,
     header .right-part .nav3{
         min-height: 70px;

@@ -1192,7 +1192,46 @@ footer form .btn{
 /* end photo-gallery screen */
 
 /* start media query */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2115px) {
+    .img-banr-text {
+        height: 1610px;
+    }
+    header .right-part .nav2 a ,
+    header .right-part .nav3 a {
+        font-size: 30px;
+    }
+    header .right-part .nav2,
+    header .right-part .nav3 {
+        min-height: 80px;
+    }
+    .img-banr-text .text h4 {
+        font-size: 70px;
+    }
+    .img-banr-text .text p {
+        font-size: 30px;
+    }
+    .counter-top p {
+        font-size: 30px;
+    }
+    .counter-top button.btn {
+        font-size: 30px;
+    }
+    .counter h2 {
+        font-size: 35px;
+    }
+    .counter p {
+        font-size: 20px;
+    }
+    .datamatix-title h2 {
+        font-size: 40px;
+    }
+    .datamatix-title p {
+        font-size: 22px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width : 2110px) {
     header .right-part .nav2,
     header .right-part .nav3{
         min-height: 70px;

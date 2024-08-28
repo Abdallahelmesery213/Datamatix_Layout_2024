@@ -1573,6 +1573,19 @@ footer form .btn{
         font-size: 18px;
         line-height: 25px;
     }
+    .image-upper {
+        height: 950px;
+    }
+    .image-upper .section .text h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .image-upper .section .text .btn {
+        margin-top: 16px;
+    }
+    .main-title h2, .main-title h3 {
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width: 575px) {
     header .right-part .nav2,
@@ -1632,6 +1645,9 @@ footer form .btn{
     .cover.cover2 h5, .cover.cover4 h5 {
         right: 35%;
         bottom: 11%;
+    }
+    .image-upper .section .text h3 {
+        font-size: 25px;
     }
 }
 
